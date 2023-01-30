@@ -1,0 +1,42 @@
+integer func sum(integer a,integer b)
+{
+create integer z=a+b;
+bring 0;
+}
+Start
+{
+create integer d=1;
+create integer x=2;
+create integer io=sum(d,x);
+if (io>0)
+{
+ io=io+1;
+}
+otherwise
+{
+ io=0;
+}
+create symbol str="hello";
+output str;
+create symbol ch="f";
+output ch;
+jump;
+create integer y=2;
+create integer z=module(y);
+output z;
+jump;
+create integer k=raiser(5,4);
+output k;
+jump;
+create integer v=0x009A;
+create integer alt=z&k;
+output alt;
+jump;
+until (z>1)
+{
+ z=z-1;
+ output z;
+}
+jump;
+bring 0;
+}

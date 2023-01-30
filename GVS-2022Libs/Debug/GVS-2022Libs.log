@@ -1,0 +1,28 @@
+﻿Сборка начата 22.12.2022 08:30:09.
+Уровень детализации журнала: Normal.     1>Проект "E:\Labs2sem\GVS-2022\GVS-2022\GVS-2022Libs\GVS-2022Libs.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\GVS-2022Libs.tlog\GVS-2022Libs.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\GVS-2022Libs.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _LIB /D _DEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MT /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /FAcs /Fa"Debug\\" /Fo"Debug\\" /Fd"E:\Labs2sem\GVS-2022\GVS-2022\Debug\GVS-2022Libs.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt "GVS-2022Libs.cpp"
+         GVS-2022Libs.cpp
+     1>E:\Labs2sem\GVS-2022\GVS-2022\GVS-2022Libs\GVS-2022Libs.cpp(6,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\Lib.exe /OUT:"E:\Labs2sem\GVS-2022\GVS-2022\Debug\GVS-2022Libs.lib" /NOLOGO /MACHINE:X86 "Debug\GVS-2022Libs.obj"
+         GVS-2022Libs.vcxproj -> E:\Labs2sem\GVS-2022\GVS-2022\Debug\GVS-2022Libs.lib
+       FinalizeBuildStatus:
+         Файл "Debug\GVS-2022Libs.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\GVS-2022Libs.tlog\GVS-2022Libs.lastbuildstate".
+     1>Сборка проекта "E:\Labs2sem\GVS-2022\GVS-2022\GVS-2022Libs\GVS-2022Libs.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "E:\Labs2sem\GVS-2022\GVS-2022\GVS-2022Libs\GVS-2022Libs.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         E:\Labs2sem\GVS-2022\GVS-2022\GVS-2022Libs\GVS-2022Libs.cpp(6,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.17
